@@ -1,0 +1,52 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Logs
+log/*
+*.log
+
+# Temp files
+tmp/*
+!tmp/pids/.keep
+
+# System files
+.DS_Store
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Database
+db/*.sqlite3
+db/*.sqlite3-journal
+
+# Coverage
+coverage/
+
+# Node modules (if any)
+node_modules/
+
+# Bundle
+.bundle/
+vendor/bundle/
+
+# Other
+*.rbc
+capybara-*.html
+.rspec
+/public/system
+/public/assets
+/public/packs
+/public/packs-test
+.byebug_history
+/storage/*
+!/storage/.keep
